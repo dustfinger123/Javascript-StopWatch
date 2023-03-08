@@ -1,0 +1,41 @@
+<!DOCTYPE >
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS StopWatch</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="JSSWmain.js"></script>
+    <link href="JSSWmain.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="mainBody">
+      <div class="header">
+        <h1>STOPWATCH</h1>
+        <h2>JAVASCRIPT STOPWATCH</h2>
+      </div>
+      <div class="timer">
+        <span>
+          <p id="minutes">00</p>
+        </span>
+        <span>
+          <p class="colon">:</p>
+        </span>
+        <span>
+          <p id="seconds">00</p>
+        </span>
+        <span>
+          <p class="colon">:</p>
+        </span>
+        <span>
+          <p id="miliSeconds">00</p>
+        </span>
+      </div>
+      <div class="buttons">
+        <button onclick="buttonStart()">Start</button>
+        <button onclick="buttonStop()">Stop</button>
+        <button onclick="buttonReset()">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
